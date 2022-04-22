@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.firstContainer{
+    background: steelblue;
+}
+
+.menu{
+    border: 2px solid #2DA2EB;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+}
+
+.menu h1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: .1em;
+    text-align: center;
+}
+
+.menu nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.menu nav ul li{
+    border-left: 2px solid #2DA2EB;
+    /* line-height: 3; */
+}
+
+.menu nav ul li a{
+    color: aliceblue;
+    display: block;
+    line-height: 3;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+.menu nav ul li a:hover{
+    background: #36D75C;
+}
+
+.topBox{
+    display: flex;
+    gap: 5px;
+    padding: 5em;
+}
+
+.topBox h2{
+    padding: 1em;
+    text-align: center;
+}
+
+.topBox p{
+    padding: 1em;
+    text-indent: 7px;
+}
+
+.secondContainer div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.secondContainer h2{
+    padding: 1em;
+    text-align: center;
+}
+
+.contenedor{
+    /* align-items: center; */
+    /* display: flex; */
+    flex-direction: column;
+    padding: 1em;
+}
+
+.contenedor p{
+    height: 90%;
+    text-align: center;
+    width: 90%;
+}
+
+.contenedor div{
+    border: 3px solid #3886f6;
+    border-radius: .3em;
+    flex: auto;
+    height: 12em;
+    width: 12em;
+}
+
+.contenedor div img{
+    height: 100%;
+    width: 100%;
+}
+
+.thirdContainer{
+    background: #e5e3e7;
+}
+
+.thirdContainer p{
+    padding: 5em 5em 0;
+    text-align: center;
+}
+
+.thirdContainer strong{
+    display: block;
+    padding: 1em 6em 3em;
+    text-align: right;
+    /* width: 100%; */
+}
+
+.fourthContainer{
+    display: flex;
+    justify-content: center;
+    padding: 3em 6em;
+}
+
+.fourthContainer .leftBlock{
+    padding: 1em;
+}
+
+.fourthContainer .leftBlock p{
+    margin-top: .2em;
+}
+
+.fourthContainer .rightBlock{
+    padding: 1em;
+}
+
+.fourthContainer .rightBlock a{
+    background: steelblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    line-height: 2;
+    margin: 1em;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+}
+
+footer{
+    background: steelblue;
+    color: white;
+    padding: .5em;
+    text-align: center;
+}
